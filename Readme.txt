@@ -1,0 +1,1 @@
+I want to join the DataZen council to deepen my knowledge for data science, gain experience, and collaborate on projects in the community. 
