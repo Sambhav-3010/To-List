@@ -5,7 +5,26 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f3f4f6;
+}
+
+.outer-box {
+  margin: auto;
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
 }
 
 ul {
@@ -84,7 +103,6 @@ ul li:last-child {
   color: #fff;
   transform: translateY(-50%) scale(1.1);
 }
-
 
 .header {
   margin: 20px auto;
